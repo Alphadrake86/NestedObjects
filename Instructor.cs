@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
     /// <summary>
-    /// represents an individual student
+    /// represents an indevidual instructor
     /// </summary>
-    class Student
+    class Instructor
     {
         /// <summary>
-        /// the student's legal first name 
+        /// legal full name
         /// </summary>
-        public string FirstName { get; set; }
+        public string FullName { get; set; }
 
         /// <summary>
-        /// legal last name
+        /// company email address
         /// </summary>
-        public string LastName { get; set; }
+        public string Email { get; set; }
     }
 }
