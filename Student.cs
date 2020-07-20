@@ -20,5 +20,11 @@ namespace ConsoleApp1
         /// legal last name
         /// </summary>
         public string LastName { get; set; }
+
+        /// <summary>
+        /// list of courses student
+        /// </summary>
+        public List<Course> Schedule { get; set; }
+
     }
 }
